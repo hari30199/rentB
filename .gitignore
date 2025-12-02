@@ -1,9 +1,68 @@
-node_modules
-.env
-.DS_Store
-coverage
-dist
-build
+# Node
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+*.log.*
+*.out
+*.err
+
+# Runtime data
+pids
+*.pid
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+tmp/
+temp/
+.cache
+
+# Testing
+coverage/
+.nyc_output
+
+# dotenv environment variables
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Typescript
+*.tsbuildinfo
+
+# Local dev
+.sass-cache
+.cache-loader
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# misc
+*.tgz
+*.bak
+*.patch
